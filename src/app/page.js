@@ -32,16 +32,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-white">
-      {/* Header */}
-      <header className="border-b border-zinc-800 px-8 py-5 flex items-center gap-3">
-        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-        <span className="font-mono text-sm text-zinc-400 tracking-widest uppercase">
-          Map Explorer
-        </span>
-      </header>
-
-      {/* Content */}
+    <div className="min-h-screen bg-zinc-950 text-white pt-16">
       <main className="max-w-5xl mx-auto px-6 py-10 flex flex-col gap-12">
 
         {/* Section 1 */}

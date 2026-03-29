@@ -10,7 +10,7 @@ const styles = {
 
 export function CustomStyleExample({ center }) {
     const mapRef = useRef(null);
-    const [style, setStyle] = useState("default");
+    const [style, setStyle] = useState("openstreetmap");
 
     const selectedStyle = styles[style];
     const is3D = style === "openstreetmap3d";
